@@ -1,20 +1,41 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title style="font-family: cairo; font-weight: bold; color:#8c734c; text-align: center;">مرحبا ! Welcome </ion-title>
   </ion-toolbar>
 </ion-header>
+<ion-content>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  
+    <ion-row style="margin-top: 10%; justify-content: center; font-family: cairo; font-weight: bold;font-size: 1.4rem; text-align: center;">
+      <ion-col  size='12'>
+        مرحبا بكم في مطعم كيلو مشكل      </ion-col>
+      <ion-col size='12'>
+        Welcome to Kilo Mchakel Restaurant
+      </ion-col>
+    </ion-row>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <img src="../../assets/icon/paradise150.png"
+    style="max-width: 50%; margin-left: auto; margin-right: auto; display: block; margin-top: 2rem;" />
+
+
+    <ion-row style="margin-top: 10%; justify-content: center; font-family: cairo; font-weight: bold;font-size: 1.4rem; text-align: center;">
+      <ion-col  size='12'>
+        يرجى اختيار اللغة  
+      </ion-col>
+      <ion-col size='12'>
+        Please Select your language 
+      </ion-col>
+    </ion-row>
+   <ion-row style="justify-content: center; font-family: cairo; font-size: 1.5rem; margin-top: 10%;">
+     <ion-col>
+      <!--
+       <ion-button style="font-family: cairo; font-weight: bold;" (click)="arabic()" expand='block'> العربية </ion-button>
+       <ion-button style="font-family: cairo; font-weight: bold;" expand='block' (click)="english()"> English </ion-button>
+      -->
+      <ion-button style="font-family: cairo; font-weight: bold;"  expand='block'> العربية </ion-button>
+      <ion-button style="font-family: cairo; font-weight: bold;" expand='block' > English </ion-button>
+     
+      </ion-col>
+   </ion-row>
+
 </ion-content>
